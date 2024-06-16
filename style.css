@@ -1,0 +1,99 @@
+/* #ddad26  body bg color code */
+#top-nav{
+    background-color: #ddad26;
+    padding: 15px 6%;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 20px;
+}
+#search-box{
+    background-color: #fcc302;
+    border: none;
+    position: relative;
+    left: 10px;
+}
+/* this is an example of atribute selector */
+#search-box::placeholder{
+    color: white;
+}
+#search-btn{
+    background-color: #00bec9;
+    border: 0;
+    width: 4rem;
+    z-index: 99;
+}
+@media screen and (max-width:990px){
+   .custom{
+    position: relative;
+    left: -10px;
+    padding-bottom: 10px;
+   }
+
+}
+
+/* banner section */
+#banner{
+    background-color: #fcc302;
+    padding: 40px 0;
+    /* min-height: 89vh; */
+}
+@media screen and (max-width:800){
+    
+}
+@media screen and (max-width:340px){
+    .bnn{
+    position: relative;
+    top: 20px;
+    left: -17px;
+    
+    }
+}
+/* services section */
+
+/* Title Section */
+.justify-1 p{
+    text-align: justify;
+}
+/* next section */
+@media screen and (max-width:770px){
+    .full{
+        width: 100%;
+    }
+}
+/* vet section */
+.rustom i{
+padding: 0 4px;
+font-size: 18px;
+}
+/* blog section */
+.blog-section{
+    min-height: 80vh;
+
+}
+.color-code p{
+    color: #00bec9;
+    font-weight: 700;
+}
+/* Footer Section */
+.footer{
+    background-color: #343434;
+}
+.footer ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+form input{
+    width: 50%;
+    border: none;
+    position: relative;
+    left: 4px;
+    outline: none;
+}
+form button{
+    padding: 1px 8px;
+    background-color: #00bec9;
+    color: #fff;
+    border: none;
+}
